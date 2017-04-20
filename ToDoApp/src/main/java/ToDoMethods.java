@@ -1,7 +1,6 @@
 
-public interface ToDoMethods {
+public interface ToDoMethods<T> {
 
-  
-
+  T execute(T input);
 
 }

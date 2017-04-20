@@ -1,6 +1,8 @@
 
 public class Main {
   public static void main(String[] args) {
-    System.out.println("ToDoApp");
+    ToDoApp toDoApp = new ToDoApp();
+
+    System.out.println(toDoApp.printUsage());
   }
 }
